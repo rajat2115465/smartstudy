@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" /> 
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>   
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="image/logo.jpg" alt="not upload">
+        </a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/teacher.html">Blogs</a></li>
+                <li><a href="/couses.html">Courses</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="image/menu.png">
+        </div>
+     </nav>
+     <section id="courses">
+        <h1>
+        POPULAR COURSES </h1>
+        <div class="fea-base">
+            <div class="fea-box">
+            <img src="image/dsa.jpg">
+                <h3>DSA COURSE</h3>
+                <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+                <div class="btn"><a class="yellow" target="_blank" href="video.html">video</a></div>
+                <!-- <iframe width="5" height="5" target="blank" src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe> -->
+            </div>
+        <div class="fea-box">
+                <img src="image/c++.png">
+                    <h3>C++ COURSES</h3>
+                    <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+                    <div class="btn"><a class="yellow" href="#">Visit Cource</a></div>
+        </div>
+            <div class="fea-box">
+                    <img src="image/python.jpg">
+                        <h3>python course</h3>
+                        <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+                        <div class="btn"><a class="yellow" href="#">Visit Course</a></div>
+            </div>
+            <div class="fea-box">
+                <img src="image/django.jpg">
+                    <h3>django course</h3>
+                    <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+                    <div class="btn"><a class="yellow" href="#">Visit Course</a></div>
+        </div>
+        <div class="fea-box">
+            <img src="image/web.jpg">
+                <h3>web development course</h3>
+                <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+                <div class="btn"><a class="yellow" href="#">Visit Course</a></div>
+    </div>
+    <div class="fea-box">
+        <img src="image/javascript.png">
+            <h3>full javascript course</h3>
+            <p>One make creepeth,man bearing theira firmament won't great heaven</p>
+            <div class="btn"><a class="yellow" href="#">Visit Course</a></div>
+</div>
+        </div>
+    </section>
+     <section id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, maxime!</p>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <li><a href="/index.html">home</a></li>
+            <li><a href="/couses.html">course</a></li>
+            <li><a href="/teacher.html">teacher</a></li>
+            <li><a href="#">price</a></li>
+            <li> <a href="/about.html">about</a></li>
+            <li><a href="/contact.html">contact</a></li>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <li><i class="fa-brands fa-facebook"></i><a href="#">facebook</a></li>
+            <li><i class="fa-brands fa-twitter"></i><a href="#">twitter</a></li>
+        <li><i class="fa-brands fa-instagram"></i><a href="#"> instagram</a></li>
+    <li><i class="fa-brands fa-linkedin"></i><a href="#">linkedin</a></li>
+            </div>
+    
+            <div class="box">
+                <h3>contact us</h3>
+               <p> <i class="fas fa-phone"></i>9058931115</p>
+               <p> <i class="fas fa-envelope"></i><a href="mailto:rajatgup1907@gmail.com">send query</a></p>
+               <p> <i class="fas fa-map-marker-alt"></i>GHAZIABAD,UP</p>
+            </div>
+    
+        </div>
+    </section>
+     <div class="credit"> |created by <span> mr. rajat gupta </span>|</div>
+     <script>
+        $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+        });
+        </script>
+</body>
+</html>
